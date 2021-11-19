@@ -11,7 +11,7 @@ body{
 
 header{
     background: #fff;
-    height: 2000px;
+    height: 1050px;
     position: relative;
     overflow: hidden;
 }
@@ -20,13 +20,13 @@ header .contenido{
     display: flex;
     width: 90%;
     margin: auto;
-    height: 2000px;
+    height: 1050px;
     align-items: center;
     justify-content: space-between;
 }
 
 .textos{
-    width: 45%;
+    width: 100%;
     color: #6d7993;
 }
 
@@ -41,7 +41,7 @@ header .contenido{
 header img{
     width: 550px;
     z-index: 10;
-    position: relative;
+    position: center;
 }
 
 header .textos a{
@@ -82,8 +82,8 @@ header .textos a{
         font-size: 35px;
     }
 
-    .textos p{
-        font-size: 5px;
+    .textos h2{
+        font-size: 20px;
     }
 
     header img{
